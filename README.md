@@ -108,5 +108,5 @@ Her metin değişiminde arkaplanda **lexer** ve **parser** çalışarak yeni dur
 ## 🎥 Tanıtım Videosu
 
 Projenin nasıl çalıştığını gösteren demo videosuna aşağıdan ulaşabilirsiniz:  
-🔗 [Tanıtım Videosu Bağlantısı](https://ornek-link.com)
+🔗 [Tanıtım Videosu Bağlantısı](https://www.youtube.com/watch?v=jXF_bsAEGjY)
 
