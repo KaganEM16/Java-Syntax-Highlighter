@@ -105,6 +105,16 @@ Her metin değişiminde arkaplanda **lexer** ve **parser** çalışarak yeni dur
 
 ---
 
+## 🖼️ Arayüzden Görseller
+
+### Başarılı Kod Örneği
+<img src="ProjeResimleri/Resim 1.png" width="500" alt="Resim 1 Açıklaması">
+
+### Başarısız Kod Örneği
+<img src="ProjeResimleri/Resim 2.png" width="500" alt="Resim 2 Açıklaması">
+
+---
+
 ## 🎥 Tanıtım Videosu
 
 Projenin nasıl çalıştığını gösteren demo videosuna aşağıdan ulaşabilirsiniz:  
