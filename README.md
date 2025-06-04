@@ -76,7 +76,7 @@ comparisonOp    → '>' | '<' | '==' | '!=' | '>=' | '<='
 ## 🎨 Gerçek Zamanlı Renklendirme
 
 GUI üzerinden yazılan her karakter sonrası döküman yeniden analiz edilir.  
-`StyledDocument` kullanılarak ilgili token’lara uygun renkler atanır.
+`StyledDocument` kullanılarak ilgili token'lara uygun renkler atanır.
 
 ### Kullanılan Renkler:
 
@@ -84,8 +84,8 @@ GUI üzerinden yazılan her karakter sonrası döküman yeniden analiz edilir.
 |----------------------------|----------|
 | Anahtar Kelime (`KEYWORD`) | Mavi     |
 | Tanımlayıcı (`IDENTIFIER`) | Siyah    |
-| Sayılar (`NUMBER`)         | Yeşil    |
-| Metinler (`STRING`)        | Turuncu  |
+| Sayılar (`NUMBER`)         | Turuncu  |
+| Metinler (`STRING`)        | Yeşil    |
 | Semboller (`SYMBOL`)       | Gri      |
 
 Gerçek zamanlı olarak **hatalı satırların altına hata mesajı** yazılır.
@@ -96,9 +96,9 @@ Gerçek zamanlı olarak **hatalı satırların altına hata mesajı** yazılır.
 
 Swing kütüphanesi kullanılarak oluşturulmuştur:
 
-- **Kod yazma alanı**: `JTextPane`
-- **Renkli sözdizimi**: `StyledDocument`
-- **Hataların gösterimi**: `JLabel` veya alt panel
+- **Kod yazma alanı**: `JTextPane`  
+- **Renkli sözdizimi**: `StyledDocument`  
+- **Hataların gösterimi**: `JLabel` veya alt panel  
 
 Her metin değişiminde arkaplanda **lexer** ve **parser** çalışarak yeni durum anlık olarak hesaplanır.
 
@@ -106,7 +106,6 @@ Her metin değişiminde arkaplanda **lexer** ve **parser** çalışarak yeni dur
 
 ## 🎥 Tanıtım Videosu
 
-Projenin nasıl çalıştığını gösteren demo videosuna aşağıdan ulaşabilirsiniz:
-
-🔗 [Tanıtım Videosu Bağlantısı](https://ornek-video-linki.com)
+Projenin nasıl çalıştığını gösteren demo videosuna aşağıdan ulaşabilirsiniz:  
+🔗 [Tanıtım Videosu Bağlantısı](https://ornek-link.com)
 
