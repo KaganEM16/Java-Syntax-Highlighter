@@ -1,14 +1,14 @@
 # Gerçek Zamanlı Java Sözdizimi Vurgulayıcı (Real-Time Java Syntax Highlighter)
 
 ## 📑 İçindekiler
-- 📌 [Proje Hakkında](#proje-hakkında)  
-- 🛠 [Kullanılan Teknolojiler](#kullanılan-teknolojiler)  
-- 🧠 [Sözdizimi Analizi Süreci](#sözdizimi-analizi-süreci)  
-- 🔍 [Lexical Analyzer](#lexical-analyzer)  
-- 🌳 [Parser (Top-Down Yöntemi)](#parser-top-down-yöntemi)  
-- 🎨 [Gerçek Zamanlı Renklendirme](#gerçek-zamanlı-renklendirme)  
-- 🖥 [Grafik Arayüz (GUI)](#grafik-arayüz-gui)   
-- 🎥 [Tanıtım Videosu](#tanıtım-videosu
+- 📌 Proje Hakkında
+- 🛠 Kullanılan Teknolojiler 
+- 🧠 Sözdizimi Analizi Süreci 
+- 🔍 Lexical Analyzer 
+- 🌳 Parser (Top-Down Yöntemi)
+- 🎨 Gerçek Zamanlı Renklendirme  
+- 🖥 Grafik Arayüz (GUI)
+- 🎥 Tanıtım Videosu
 
 ---
 
