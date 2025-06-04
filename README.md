@@ -9,35 +9,27 @@
 - 🎨 [Gerçek Zamanlı Renklendirme](#gerçek-zamanlı-renklendirme)  
 - 🖥 [Grafik Arayüz (GUI)](#grafik-arayüz-gui)   
 - 🎥 [Tanıtım Videosu](#tanıtım-videosu
-
 ---
-
 ## 📌 Proje Hakkında
 
 Bu proje, Java dili için gerçek zamanlı çalışan bir **sözdizimi vurgulayıcıdır**. Girdi olarak alınan kodu **lexical analysis (sözlük analizi)** ve **syntax analysis (sözdizimi analizi)** adımlarıyla işler. Sözdizimi kontrolü, önceden tanımlanmış bir **bağlamdan bağımsız dilbilgisi (CFG)** ile yapılır. GUI üzerinde yazılan kod, eş zamanlı olarak analiz edilip renklendirilir ve hata mesajları gerçek zamanlı olarak gösterilir.
 
 > Projede herhangi bir hazır kütüphane (syntax highlighting kütüphaneleri gibi) kullanılmamıştır.
-
 ---
-
 ## 🛠 Kullanılan Teknolojiler
 
 - **Programlama Dili**: Java  
 - **Arayüz**: Swing (`JTextPane`, `StyledDocument`)  
 - **Yapı**: Kendi yazılmış Lexer, Parser, ve Token sınıfları  
 - **Derleyici Tipi**: Top-Down Parser (Recursive Descent)
-
 ---
-
 ## 🧠 Sözdizimi Analizi Süreci
 
 Sözdizimi analizi iki ana bileşenden oluşur:
 
 - **Lexical Analyzer (Lexer)**: Girdiyi token’lara ayırır.
 - **Parser**: Token akışını CFG’ye göre analiz eder ve anlamlı bir yapı olup olmadığını kontrol eder.
-
 ---
-
 ## 🔍 Lexical Analyzer
 
 Lexical analiz, `Lexer.java` sınıfı ile gerçekleştirilmiştir. Girdi karakterleri tek tek okunarak uygun token’lara ayrılır.
@@ -51,9 +43,7 @@ Lexical analiz, `Lexer.java` sınıfı ile gerçekleştirilmiştir. Girdi karakt
 - `EOF`: Girdi sonu
 
 Yorumlayıcı, `char` düzeyinde kontrol yaparak karakter bazlı bir **durum diyagramı**na göre işlemi yürütür.
-
 ---
-
 ## 🌳 Parser (Top-Down Yöntemi)
 
 Parser sınıfı, Recursive Descent yöntemine göre çalışır. Tanımlanan CFG’ye göre gelen token’ları sırayla kontrol eder.
@@ -70,9 +60,7 @@ ifStmt          → 'if' '(' expression ')' '{' statement* '}' ('else' '{' state
 printStmt       → 'System' '.' 'out' '.' 'println' '(' (STRING | IDENTIFIER) ')' ';'
 expression      → IDENTIFIER comparisonOp NUMBER
 comparisonOp    → '>' | '<' | '==' | '!=' | '>=' | '<='
-
 ---
-
 ## 🎨 Gerçek Zamanlı Renklendirme
 
 GUI üzerinden yazılan her karakter sonrası döküman yeniden analiz edilir.  
@@ -89,9 +77,7 @@ GUI üzerinden yazılan her karakter sonrası döküman yeniden analiz edilir.
 | Semboller (`SYMBOL`)       | Gri      |
 
 Gerçek zamanlı olarak **hatalı satırların altına hata mesajı** yazılır.
-
 ---
-
 ## 🖥 Grafik Arayüz (GUI)
 
 Swing kütüphanesi kullanılarak oluşturulmuştur:
@@ -101,9 +87,7 @@ Swing kütüphanesi kullanılarak oluşturulmuştur:
 - **Hataların gösterimi**: `JLabel` veya alt panel  
 
 Her metin değişiminde arkaplanda **lexer** ve **parser** çalışarak yeni durum anlık olarak hesaplanır.
-
 ---
-
 ## 🎥 Tanıtım Videosu
 
 Projenin nasıl çalıştığını gösteren demo videosuna aşağıdan ulaşabilirsiniz:  
