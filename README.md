@@ -16,8 +16,8 @@
 
 Bu proje, Java dili için gerçek zamanlı çalışan bir **sözdizimi vurgulayıcıdır**. Girdi olarak alınan kodu **lexical analysis (sözlük analizi)** ve **syntax analysis (sözdizimi analizi)** adımlarıyla işler. Sözdizimi kontrolü, önceden tanımlanmış bir **bağlamdan bağımsız dilbilgisi (CFG)** ile yapılır. GUI üzerinde yazılan kod, eş zamanlı olarak analiz edilip renklendirilir ve hata mesajları gerçek zamanlı olarak gösterilir.
 
-> Projede herhangi bir hazır kütüphane (syntax highlighting kütüphaneleri gibi) kullanılmamıştır.
-> Projenin herkese açık [makalesine](https://github.com/KaganEM16/Java-Syntax-Highlighter/article.pdf) buradan ulaşabilirsiniz.
+* Projede herhangi bir hazır kütüphane (syntax highlighting kütüphaneleri gibi) kullanılmamıştır.
+* [Projenin herkese açık makalesine buradan ulaşabilirsiniz.](article.pdf)
 
 ---
 
